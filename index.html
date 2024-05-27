@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css"">
+    <link rel="stylesheet" href="./css/alurageek.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alura Geek</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/logo.svg" alt="logo" />
+      <span>AluraGeek</span>
+    </header>
+
+    <main class="container">
+      <section class="items">
+        <span>Mis Productos:</span>
+
+        <div class="cards">
+          <!-- Productos -->
+        </div>
+      </section>
+
+      <section class="formulario">
+        <span
+          >Agregar <br />
+          Producto:</span
+        >
+        <form action="" class="form">
+          <div class="input">
+            <input type="text" placeholder="nombre..." name="name" data-name />
+            <span class="input-error"></span>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="precio..."
+              name="price"
+              data-price
+            />
+            <span class="input-error"></span>
+          </div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="imagen..."
+              name="image"
+              data-image
+            />
+            <span class="input-error"></span>
+          </div>
+          <div class="button-div">
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="button" class="limpiar">Limpiar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="logo">
+          <img src="./assets/logo.svg" alt="logo" />
+          <span>AluraGeek</span>
+        </div>
+        <p>Desarrollado por Franco Stoll</p>
+        <p class="">Alura latam - 2024</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/deleteProduct.js" type="module"></script>
+  <script src="./js/script.js" type="module"></script>
+</html>
