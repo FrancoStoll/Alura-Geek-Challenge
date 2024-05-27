@@ -18,7 +18,7 @@ function loadProducts(products) {
               <div class="card-container--value">
                 <p>$${product.price}</p>
                 <button data-id=${product.id} class="btnDelete">
-                <img src="./assets/trashIcon.svg" />
+                <img src="${product.image}" />
                 </button>
               </div>
             </div>
